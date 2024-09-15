@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    font-family: "Inter";
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-principal {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menu-superior {
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menu-superior {
+    background-image: url(imagens/fundo-menu-superior.svg);
+    color: aliceblue;
+}
+
+#menu-informacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone {
+   margin: 50px 0px 50px 100px;
+   padding: 25px;
+}
+
+.texto-informativo {
+    display: flex;
+    align-items: center;
+    columns: auto;
+}
+
+#sessao-video {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#video {
+    margin: 25px 25px 50px 100px;
+}
+
+#titulo-video {
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#div-cards {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+#Bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#titulo-form {
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input {
+    Width: 300px;
+    Height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    background-color: #247BA0;
+    width: 250px;
+    height: 40px;
+    color: rgb(250, 246, 246);
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #50aed6;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px #050c44af;
+    transition-duration: 0.5s;  
+}
+
+
+
+
+
